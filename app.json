@@ -1,0 +1,9 @@
+{
+    "name": "Sistema-Experto",
+    "description": "Streamlit App Boilerplate that contains everything you need to get running.",
+    "repository": "https://github.com/maax-jones/Sistema_Experto_APP_v1",
+    "keywords": [
+        "streamlit",
+        "python"
+    ]
+}
