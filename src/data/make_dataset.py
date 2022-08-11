@@ -18,7 +18,6 @@ def main(input_filepath, output_filepath):
     logger.info('making final data set from raw data')
     file = pd.read_csv(input_filepath,sep=';')
 
-    print('making final data set from raw data ')
 
     file['Date_Time'] = file['Date'] + ' ' + file['Time']
     file.drop(columns=['Date', 'Time'], inplace=True)  # %%
