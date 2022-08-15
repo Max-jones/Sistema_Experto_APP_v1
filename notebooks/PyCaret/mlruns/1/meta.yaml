@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/elmha/OneDrive%20-%20Universidad%20de%20Chile/GitHub/Sistema_Experto_APP/notebooks/PyCaret/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: anomaly-default-name
