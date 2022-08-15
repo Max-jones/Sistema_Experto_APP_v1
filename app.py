@@ -127,7 +127,7 @@ def entrenar_modelos(df, etiqueta, metrica, ensamble=True):
     '''
 
     # setup
-    pycaret_s = supervised.setup(df, target = etiqueta, session_id = 123, silent = True, use_gpu = True, profile = False, log_experiment = False)
+    pycaret_s = supervised.setup(df, target = etiqueta, session_id = 123)#, silent = False, use_gpu = False, profile = False, log_experiment = False)
     # model training and selection
     if ensamble:
         top10 = supervised.compare_models(n_select = 10)
