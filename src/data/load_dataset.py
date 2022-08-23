@@ -8,7 +8,7 @@ def load_data(path):
 
     '''
 
-    data = pd.read_csv(path, sep=None, engine='python')
+    data = pd.read_csv(path, sep=None, engine='python',encoding = 'utf-8-sig',parse_dates= True)
     try:
 
         data["Date_Time"] = pd.to_datetime(data["Date_Time"])
