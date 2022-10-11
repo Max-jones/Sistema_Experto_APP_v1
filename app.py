@@ -290,7 +290,7 @@ try:
                 st.write('### Apilamiento de los mejors 5 modelos con mejor desempeño:')
                 st.write('# Los mejores clasificador fueron:')
                 # st.write(supervised.pull())
-
+          
                 supervised.plot_model(best, plot='class_report', display_format='streamlit')
                 supervised.plot_model(best, plot='confusion_matrix', display_format='streamlit',
                                     plot_kwargs={'percent': True})
